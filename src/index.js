@@ -1,7 +1,13 @@
-import './style.css'
+import { buscarNeneAsync,buscarNene } from './js/promesas';
 
-const heroeId = 'capi'
+// promesaLenta.then(console.log);
+// promesaMedia.then(console.log);
+// promesaRapida.then(console.log);
 
-buscarHeroe( heroeId, ()=>{
-    console.log('Callback llamado')
-});
+
+// Promise.race([promesaLenta,promesaMedia,promesaRapida]).then(mensaje => console.log(mensaje)).catch(console.warn);
+
+// buscarNene('capi').then(console.log);
+
+// buscarNeneAsync('capi').then(console.log);
+
